@@ -17,18 +17,17 @@ public class ExemploLinkedList {
 		filaBanco.add("Anderson");
 		System.out.println(filaBanco + "\n");
 		
-		System.out.println("Atendendo primeiro cliente da fila...");
+		System.out.println("Atendendo primeiro cliente da Fila...");
 		String clienteASerAtendido = filaBanco.poll();
 		System.out.println(clienteASerAtendido);
 		System.out.println(filaBanco + "\n");
 				
-		System.out.println("Verificando quem é o primeiro cliente da fila...");
+		System.out.println("Verificando quem é o primeiro cliente da Fila...");
 		String primeiroCliente = filaBanco.peek();
 		System.out.println(primeiroCliente);
 		System.out.println(filaBanco + "\n");
 		
-		System.out.println("Exemplos Como percorrer a fila!!\n");
-		
+		System.out.println("Exemplos de como percorrer a Fila!!\n");
 		System.out.println("For Each:");
 		for (String cliente : filaBanco) {
 			System.out.println(cliente);
@@ -44,7 +43,7 @@ public class ExemploLinkedList {
 		filaBanco.clear();
 		System.out.println("Fila vazia? " +filaBanco.isEmpty()); 		
 		
-		System.out.println("\nRetornando erro quando a fila for vazia...");		
+		System.out.println("\nRetornando erro quando a Fila for vazia...");		
 		String primeiroClienteOuErro = filaBanco.element();
 		System.out.println(primeiroClienteOuErro);
 		System.out.println(filaBanco + "\n");

@@ -13,7 +13,7 @@ public class ExampleList {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Criando uma lista...");
+		System.out.println("Criando uma Lista...");
 		List<String> nomes = new ArrayList<String>();
 		nomes.add("Pedro");
 		nomes.add("Juliana");
@@ -44,12 +44,12 @@ public class ExampleList {
 		String nome = nomes.get(2);
 		System.out.println(nome + "\n");
 		
-		System.out.println("Obtendo tamanho da lista...");
+		System.out.println("Obtendo tamanho da Lista...");
 		int tamanho = nomes.size();
 		System.out.println(nomes);
-		System.out.println("Tamanho da lista: "+tamanho+ "!\n");
+		System.out.println("Tamanho da Lista: "+tamanho+ "!\n");
 				
-		System.out.println("Checando se a lista contêm o nome \"Anderson\"...");
+		System.out.println("Checando se a Lista contêm o nome \"Anderson\"...");
 		boolean temAnderson = nomes.contains("Anderson");
 		System.out.println(nomes);
 		System.out.println("Lista contêm o elemento: " +temAnderson+ "\n");
@@ -59,13 +59,12 @@ public class ExampleList {
 		System.out.println(nomes);
 		System.out.println("João está no indice: " +posicao);
 		
-		System.out.println("Buscando um indice de um valor que não existe na lista \"Wesley\"!");
+		System.out.println("Buscando um indice de um valor que não existe na Lista \"Wesley\"!");
 		int posicaoNaoExiste = nomes.indexOf("Wesley");
 		System.out.println(nomes);
 		System.out.println("Wesley está no indice: " +posicaoNaoExiste);
 		
-		System.out.println("Exemplos Como percorrer a lista!!\n");
-		
+		System.out.println("Exemplos Como percorrer a Lista!!\n");
 		System.out.println("For Each");
 		for(String valorItem : nomes) {
 			System.out.println("-->" + valorItem);

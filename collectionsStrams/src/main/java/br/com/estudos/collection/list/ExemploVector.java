@@ -7,7 +7,7 @@ public class ExemploVector {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Criando uma lista...");
+		System.out.println("Criando uma Lista...");
 		List<String> esportes = new Vector<String>();
 		esportes.add("Futebol");
 		esportes.add("Basquetebol");
