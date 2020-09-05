@@ -25,10 +25,10 @@ public class ExemploTreeSet {
 		
 		System.out.println(treeCapitais + "\n");
 		System.out.println("Retorna a primeira capital abaixo na árvore da capital parametrizada...");
-		System.out.println(treeCapitais.lower("Florianópois"));
+		System.out.println(treeCapitais.lower("Florianópolis"));
 		
 		System.out.println("Retorna a primeira capital acima na árvore da capital parametrizada...");
-		System.out.println(treeCapitais.lower("Florianópois"));
+		System.out.println(treeCapitais.higher("Florianópolis"));
 		System.out.println(treeCapitais + "\n");
 		
 		System.out.println("Retorna a primeira capital no topo da árvore, removendo do Set...");
