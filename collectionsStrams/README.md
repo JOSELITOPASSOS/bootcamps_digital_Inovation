@@ -7,3 +7,5 @@ Exemplos de implementações de Collections!!
 * Set
 * Map
 * Comparators
+* Optionals
+* Streams
