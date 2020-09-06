@@ -8,4 +8,4 @@ Exemplos de implementações de Collections!!
 * Map
 * Comparators
 * Optionals
-* Streams
+* Streams API
